@@ -3,11 +3,11 @@
 > ## Russian
 
 ---
-Бот - [TGen](t.me/TGen_bot)
+Бот - [TGen](https://t.me/TGen_bot)
 
-Чат - [TGen](t.me/TGen_chat)
+Чат - [TGen](https://t.me/TGen_chat)
 
-Канал - [TGen](t.me/TGen_channel)
+Канал - [TGen](https://t.me/TGen_channel)
 
 ### **pip зависимости**
 
@@ -40,11 +40,11 @@ token_test = "Тестовый токен"
 > ## English
 
 ---
-Bot - [TGen](t.me/TGen_bot)
+Bot - [TGen](https://t.me/TGen_bot)
 
-Chat - [TGen](t.me/TGen_chat)
+Chat - [TGen](https://t.me/TGen_chat)
 
-Channel - [TGen](t.me/TGen_channel)
+Channel - [TGen](https://t.me/TGen_channel)
 
 ### **pip dependencies**
 
