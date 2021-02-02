@@ -5,10 +5,6 @@
 ---
 Бот - [TGen](https://t.me/TGen_bot)
 
-Чат - [TGen](https://t.me/TGen_chat)
-
-Канал - [TGen](https://t.me/TGen_channel)
-
 ### **pip зависимости**
 
 ```bash
@@ -41,10 +37,6 @@ token_test = "Тестовый токен"
 
 ---
 Bot - [TGen](https://t.me/TGen_bot)
-
-Chat - [TGen](https://t.me/TGen_chat)
-
-Channel - [TGen](https://t.me/TGen_channel)
 
 ### **pip dependencies**
 
