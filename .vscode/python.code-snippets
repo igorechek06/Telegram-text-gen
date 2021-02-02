@@ -1,0 +1,47 @@
+{
+    "message_handler": {
+        "prefix": "handler_msg",
+        "body": [
+            "@dp.message_handler(${1:lambda msg:,}content_types=[types.ContentType.${2:TEXT}])",
+            "async def ${3:Name}(msg: types.Message${4:, state: FSMContext}):",
+            "    ${5:pass}"
+        ],
+        "description": "message_handler"
+    },
+    "command_handler": {
+        "prefix": "handler_cmd",
+        "body": [
+            "@dp.message_handler(${1:lambda msg:,}commands=[\"${2:cmd}\"])",
+            "async def ${3:Name}(msg: types.Message${4:, state: FSMContext}):",
+            "    ${5:pass}"
+        ],
+        "description": "message_handler"
+    },
+    "state proxy": {
+        "prefix": "data",
+        "body": [
+            "async with state.proxy() as data:",
+            "    ${1:pass}"
+        ],
+        "description": "state proxy"
+    },
+    "error": {
+        "prefix": "new_error",
+        "body": [
+            "class ${1}(Exception):",
+            "    def __init__(self) -> None:",
+            "        super().__init__(text.error.${1})"
+        ],
+        "description": "Error"
+    },
+    "callback": {
+        "prefix": "handler_callback",
+        "body": [
+            "@dp.callback_query_handler(lambda msg: msg.data in [\"${1}\"])",
+            "async def ${2}(callback: types.CallbackQuery, state: FSMContext):",
+            "    call_data = callback.data",
+            "    msg = callback.message"
+        ],
+        "description": "callback"
+    }
+}
